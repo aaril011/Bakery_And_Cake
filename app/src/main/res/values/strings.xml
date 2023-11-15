@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Bakery And Cake</string>
+    <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="cake">Cake</string>
+
+    <string-array name="cake_name">
+        <item>Black Forest Cake</item>
+        <item>Chocolate Layer Cake</item>
+        <item>Lemon Cake</item>
+        <item>Naked Cake</item>
+        <item>Red Velvet Cake</item>
+        <item>Macaron Striped Drip Cake</item>
+    </string-array>
+
+    <string-array name="cake_price">
+        <item>Rp. 680.000.00</item>
+        <item>Rp. 580.000.00</item>
+        <item>Rp. 980.000.00</item>
+        <item>Rp. 780.000.00</item>
+        <item>Rp. 690.000.00</item>
+        <item>Rp. 1280.000.00</item>
+    </string-array>
+
+    <string-array name="cake_desc">
+        <item>Kue ini berasal dari Jerman dan merupakan salah satu kue cokelat paling terkenal di dunia. Kue ini terdiri dari tiga lapisan kue cokelat yang dilapisi dengan krim kocok, cherry, dan saus cokelat. Kue ini biasanya disajikan dengan whipped cream dan cherry on top.
+        </item>
+        <item>Kue ini terbuat dari dua atau lebih lapisan kue cokelat yang dilapisi dengan krim kocok atau ganache cokelat. Kue ini biasanya dihiasi dengan buah-buahan segar, seperti stroberi, blueberry, atau raspberry.
+        </item>
+        <item> Kue ini terbuat dari adonan kue lemon yang lembut dan asam, dilapisi dengan krim kocok yang manis, dan dihiasi dengan blueberry segar. Kue lemon memiliki rasa yang segar dan asam. Teksturnya yang lembut dan empuk membuat kue ini menjadi salah satu kue favorit banyak orang. Kue ini cocok disajikan untuk acara-acara khusus, seperti ulang tahun atau perayaan lainnya.
+        </item>
+        <item>Kue ini tidak memiliki lapisan fondant atau icing, sehingga terlihat "telanjang". Kue ini biasanya terbuat dari lapisan kue vanila atau cokelat yang dilapisi dengan krim kocok atau ganache. Kue ini sering dihiasi dengan buah-buahan segar, seperti stroberi, blueberry, atau raspberry.
+        </item>
+        <item>K ue ini terbuat dari lapisan kue merah yang dilapisi dengan krim keju. Kue ini biasanya dihiasi dengan krim keju atau taburan gula halus. Red velvet cake adalah kue yang populer di Amerika Serikat. Kue ini memiliki rasa cokelat yang kaya dan lembut. Warna merahnya berasal dari pewarna makanan alami yang disebut anthocyanin.
+        </item>
+        <item>Kue ini terbuat dari lapisan kue macaron berwarna-warni yang dilapisi dengan krim kocok atau ganache cokelat. Krim kocok atau ganache cokelat dituangkan di sisi kue sehingga terlihat seperti tetesan. Kue ini biasanya dihiasi dengan buah-buahan segar, seperti stroberi, blueberry, atau raspberry.
+        </item>
+    </string-array>
+
+    <array name="cake_photo">
+        <item>@drawable/blackforestcake</item>
+        <item>@drawable/chocolate_layer_cake_with_whipped_cream_and_fruits</item>
+        <item>@drawable/lemon_cake_with_whipped_cream_and_blueberries</item>
+        <item>@drawable/nakedcake</item>
+        <item>@drawable/red_velvet_cake</item>
+        <item>@drawable/macaron_striped_drip_cake</item>
+    </array>
+</resources>
