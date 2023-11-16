@@ -17,5 +17,5 @@ Berikut Tampilan dari hasil projek yang telah kami buat:
 # Tampilan Detail Cake
 ![Screenshot 2023-11-17 052817](https://github.com/aaril011/Bakery_And_Cake/assets/98263567/dddd4192-74b7-49e7-aa5b-ae2ff5a51c8c)
 
-#Tampilan About
+# Tampilan About
 ![Screenshot 2023-11-17 052752](https://github.com/aaril011/Bakery_And_Cake/assets/98263567/f370e269-46f5-467e-89b0-af3c2cedd2df)
