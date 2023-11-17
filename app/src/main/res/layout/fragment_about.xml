@@ -36,5 +36,6 @@
         android:layout_gravity="center"
         android:textSize="20dp"
         android:layout_marginTop="130dp"
-        android:text="Projek ini dibuat untuk memenuhi tugas UTS Praktikum Mobile oleh Kelompok 3"/>
+        android:textAlignment="center"
+        android:text="Projek ini dibuat Oleh Kelompok 3 untuk memenuhi tugas UTS Praktikum Mobile dengan anggota kelompok yaitu Aril.S dengan NIM F55122011, Hairul dengan NIM F55122008, dan Irma Sitti Rahma dengan NIM F55122007"/>
 </FrameLayout>

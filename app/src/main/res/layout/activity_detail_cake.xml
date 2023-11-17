@@ -22,7 +22,7 @@
         android:id="@+id/DetailName"
         android:text="Name"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/text"
         android:textSize="25dp"
         android:layout_below="@id/imgDetail"
         android:layout_centerHorizontal="true"/>
@@ -36,21 +36,30 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Harga"
-        android:textColor="@color/white"
+        android:textColor="@color/text"
         android:textSize="25dp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/DetailDesc"
-        android:layout_width="396dp"
-        android:layout_height="303dp"
+        android:layout_width="407dp"
+        android:layout_height="166dp"
         android:layout_below="@id/imgDetail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="99dp"
         android:justificationMode="inter_word"
         android:text="Deskripsi"
-        android:textColor="@color/white"
+        android:textColor="@color/text"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DetailDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Pesan Sekarang" />
 
 
 </RelativeLayout>

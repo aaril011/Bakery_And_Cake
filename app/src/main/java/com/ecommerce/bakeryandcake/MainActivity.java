@@ -1,5 +1,4 @@
 package com.ecommerce.bakeryandcake;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -21,48 +20,31 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Fragment selectedFragment = null;
-                switch (item.getItemId()){
-                    case R.id.nav_home:
-                        selectedFragment = new HomeFragment();
-                        break;
-                    case R.id.nav_cake:
-                        selectedFragment = new CakeFragment();
-                        break;
-                    case R.id.nav_about:
-                        selectedFragment = new AboutFragment();
-                        break;
+                Fragment selectfragment = null;
+                int itemId = item.getItemId();
+                if (itemId == R.id.nav_home){
+                    selectfragment = new HomeFragment();
+                } else if (itemId == R.id.nav_cake) {
+                    selectfragment = new CakeFragment();
+                } else if (itemId == R.id.nav_about) {
+                    selectfragment = new AboutFragment();
                 }
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
-                return true;
+
+                if (selectfragment != null){
+                    switchFragment (selectfragment);
+                    return true;
+                }
+                return false;
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+//                return true;
+            }
+
+            private void switchFragment(Fragment fragment) {
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, fragment, fragment.getClass().getSimpleName())
+                        .commit();
             }
         });
     }
 
 }
-
-/*
-public class MainActivity extends AppCompatActivity {
-
-    BottomNavigationView bottomNavigation;
-
-    @Override protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        bottomNavigation = findViewById(R.id.bottomNav);
-        bottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem) {
-                Fragment selectedFragment = null;
-                switch (item.getItemId()) {
-                    case R.id.nav_home:
-                        selectedFragment = new HomeFragment();
-                }
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
-                return true;
-
-            }
-        });
-    }
-}*/

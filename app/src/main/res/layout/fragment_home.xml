@@ -6,67 +6,37 @@
     tools:context=".HomeFragment"
     android:background="@drawable/background">
 
+    <!-- Existing content -->
+
+    <!-- Your existing TextViews -->
+
+    <!-- New content: Logo and Welcome Message -->
+
     <ImageView
-        android:layout_marginTop="-25dp"
         android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_height="254dp"
         android:layout_gravity="center"
-        android:src="@color/black"
-        android:alpha="0.5"/>
+        android:layout_marginTop="-30dp"
+        android:alpha="0.5"
+        android:src="@color/black" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/logo" />
 
     <TextView
-        android:id="@+id/klp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UTS PEMROGRAMAN MOBILE"
-        android:layout_marginTop="-100dp"
-        android:textSize="18dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bakery And Cake"
-        android:layout_marginTop="-80dp"
-        android:textColor="@color/white"
-        android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kelompok 3"
-        android:layout_marginTop="-40dp"
-        android:textColor="@color/white"
-        android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Praktikum Mobile"
-        android:layout_marginTop="-20dp"
-        android:textColor="@color/white"
-        android:layout_gravity="center"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kelas : A"
-        android:textColor="@color/white"
-        android:layout_gravity="center"/>
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:text="SELAMAT DATANG !"
         android:textColor="@color/white"
-        android:textStyle="bold"
-        android:text="S1 TEKNIK INFORMATIKA" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:text="UNIVERSITAS TADULAKO" />
+        android:textSize="30sp"
+        android:textStyle="bold" /> <!-- Increase the top margin -->
 
+    <!-- Continue with your existing TextViews -->
 
 </FrameLayout>
